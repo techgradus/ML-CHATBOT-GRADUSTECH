@@ -1,4 +1,0 @@
-# no final do script de treino
-rf = RandomForestTrainer()
-rf.fit(X_train, y_train)
-rf.save("models/random_forest.joblib")   # ← pasta models
